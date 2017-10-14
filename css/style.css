@@ -1,0 +1,193 @@
+					/*CSS RESET*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**********Global*********/ 
+body{
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+} 
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+a {
+	color: #4784e5;
+	text-decoration: none;
+
+}
+
+a:hover{
+	color: #492BDF;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+/************header************/
+header{
+	background-color: #fff;
+	font-family: 'PT Sans', sans-serif;
+	display: flex;
+	justify-content: space-between ;
+	align-items: center;	
+	height: 12vh;
+}
+
+.box-shadow{
+	box-shadow: 0 5px 10px -6px #777;
+}
+
+.logo{
+	font-size: 2em;
+	font-weight: 500;
+	}
+
+.logo a{
+	color: #444;
+}	
+
+.logo a:hover{
+	text-decoration: none;
+}
+
+nav{
+	font-size: 1.1em;
+	font-weight: 500;
+}
+
+nav ul li{
+	margin-left: 10px;
+}
+
+/***************Banner***************/
+.banner{
+	height: 88vh;
+	background-image: url(../img/1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+} 
+
+.heading{
+	font-family: 'PT Sans', sans-serif;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.heading h1{
+	font-size: 4.5em;
+}
+
+.heading h4{
+	font-size: 3em;
+}
+
+.blue{
+	color: #4783e5;
+}
+
+/************About Us*************/
+.about{
+	margin-top: 3%;
+}
+
+.text h2{
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color: #246BDB;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.paragraph{
+	color: #444;
+	padding-top: 3%;
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+.aboutul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #246BDB;
+}
+
+.aboutul p{
+	color: #444;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+}
+
+.footer{
+	margin-top: 5%;
+}
+
+footer ul li{
+	margin: 10px;
+	display: inline-block;
+}
+
+
+ /************Qualification***************/
+
+
