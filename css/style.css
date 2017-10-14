@@ -181,7 +181,7 @@ footer{
 }
 
 .footer{
-	margin-top: 5%;
+	margin-top: 3%;
 }
 
 footer ul li{
@@ -191,7 +191,7 @@ footer ul li{
 
 
  /************Qualification***************/
-.qualification h1{
+.text h1{
 	margin-top: 2%;
 	margin-bottom: 2%;
 	text-align: center;
@@ -200,7 +200,7 @@ footer ul li{
 	color: #0B56CC;
 }
 
-.qualification img{
+.text img{
 	width: 100%;
 	margin-bottom: 2%;
 }
@@ -216,6 +216,7 @@ footer ul li{
 .qualul p{
 	color: #444;
 }
+
 
 
 
