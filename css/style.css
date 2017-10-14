@@ -217,6 +217,51 @@ footer ul li{
 	color: #444;
 }
 
+/***********Clients**********/
+blockquote {
+	text-align:center;
+	font-size:1.2em;
+	color: #777;
+	border-top:1px solid #4783e5;
+	border-bottom:1px solid #4783e5;
+	position:relative;
+	quotes: "\201C""\201C""\201C""\201C";
+}
+blockquote:after {
+	color:#4783e5;
+	font-family:Source Sans Pro;
+	content: open-quote;
+	font-size:5em;
+	position:absolute;
+	left:50%;
+	bottom:calc(100% - 20px);
+	background:#fff;
+	height:55px;
+	width: 55px;
+	line-height:normal;
+	text-align:center;
+	transform:translateX(-50%);
+}
+blockquote p {
+	padding:20px;
+} 
 
+.cliname{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 10px;
+	font-size: 1.2em;
+	padding-bottom: 3%;
+}
+
+.cliname h5{
+	color: #4784E5;
+	padding-bottom: 1%;
+}
+
+.cliname h6{
+	color: #246BDB;
+}
 
 
