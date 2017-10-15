@@ -264,4 +264,29 @@ blockquote p {
 	color: #246BDB;
 }
 
+.link{
+	height: 70vh;
+}
+
+.centerimg{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.address{
+	display: flex;
+	justify-content: space-between;
+}
+
+.address h3{
+	color: #0B56CC;
+}
+
+.address p{
+	color: #6B9DEC;
+}
+
 
