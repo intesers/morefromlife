@@ -176,12 +176,18 @@ nav ul li{
 }
 
 footer{
-	display: flex;
-	justify-content: center;
+	
 }
 
 .footer{
 	margin-top: 3%;
+	display: flex;
+	justify-content: center;
+}
+
+#footer{
+	display: flex;
+	justify-content: center;
 }
 
 footer ul li{
@@ -264,17 +270,7 @@ blockquote p {
 	color: #246BDB;
 }
 
-.link{
-	height: 70vh;
-}
 
-.centerimg{
-	width: 30%;
-	display: flex;
-	justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-}
 
 .address{
 	display: flex;
@@ -289,4 +285,66 @@ blockquote p {
 	color: #6B9DEC;
 }
 
+table{
+	width: 100%;
+	color: #444;
+	font-size: 1.2em;
+}
 
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+	padding: 2%;
+}
+
+.dark{
+	background-color: #b8cced;
+}
+
+.darker{
+	background-color: #88a5d4;
+}
+
+.light{
+	background-color: #cfdef5;
+}
+
+.form, select{
+	margin: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+.half{
+	display: flex;
+	justify-content: space-between;
+}
+
+.halfwidth{
+	width: 45%;
+	margin-top: 2%;
+}
+
+.checkbox input{
+	cursor: pointer;
+}
+
+.submit{
+	width: 30%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	background-color: #4784E5;
+	border: none;
+	color: #fff;
+	font-size: 1.1em;
+	padding: 15px;
+	cursor: pointer;
+}
+
+.submit:hover{
+	background-color: #246bdb;	
+}
