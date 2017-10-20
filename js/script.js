@@ -1,6 +1,6 @@
 $(document).ready(function($) {
 	$('.wrapmenu').adaptiveMenu({
-  		query: 768, 
+  		query: 1076, 
   		append: 'body', 
 });
 });
