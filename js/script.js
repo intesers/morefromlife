@@ -1,5 +1,5 @@
 $(document).ready(function($) {
 	$('.wrapmenu').adaptiveMenu({
-  		query: 1235, 
+  		query: 850, 
 });
 });
